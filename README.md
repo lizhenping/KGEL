@@ -21,3 +21,13 @@ or
 
 email:
 li_zhenping@126.com
+
+data process code come from:
+
+
+Multi-hop Question Generation with Graph Convolutional Network (MulQG)
+
+
+https://github.com/HLTCHKUST/MulQG
+
+thank you for her open source
