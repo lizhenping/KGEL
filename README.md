@@ -49,7 +49,7 @@ The task of multi-hop question generation (QG) seeks to generate questions that 
 
 ## MulQG Framework:
 <p align="center">
-<img src="framework.png" width="90%" />
+<img src="plot.png" width="90%" />
 </p>
 
 Framework of KGEL. It consists of three major modules: a context understanding module, a reasoning module, and a generation module.
