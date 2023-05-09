@@ -26,21 +26,7 @@ li_zhenping@126.com
 cite：
 
 
-If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
-<pre>
-@Article{app13095765,
-AUTHOR = {Li, Zhenping and Cao, Zhen and Li, Pengfei and Zhong, Yong and Li, Shaobo},
-TITLE = {Multi-Hop Question Generation with Knowledge Graph-Enhanced Language Model},
-JOURNAL = {Applied Sciences},
-VOLUME = {13},
-YEAR = {2023},
-NUMBER = {9},
-ARTICLE-NUMBER = {5765},
-URL = {https://www.mdpi.com/2076-3417/13/9/5765},
-ISSN = {2076-3417},
-DOI = {10.3390/app13095765}
-}
-<pre>
+
 
 
 ## Abstract
@@ -59,3 +45,19 @@ Framework of KGEL. It consists of three major modules: a context understanding m
 
 The illustration of the reasoning module. We implement a dynamic procedure of Context2Graph and Graph2Context using a mapping matrix M. The entity representation is updated using an answer-aware GAT, and the answer representation is updated through a bi-attention mechanism.
 </p>
+
+If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
+<pre>
+@Article{app13095765,
+AUTHOR = {Li, Zhenping and Cao, Zhen and Li, Pengfei and Zhong, Yong and Li, Shaobo},
+TITLE = {Multi-Hop Question Generation with Knowledge Graph-Enhanced Language Model},
+JOURNAL = {Applied Sciences},
+VOLUME = {13},
+YEAR = {2023},
+NUMBER = {9},
+ARTICLE-NUMBER = {5765},
+URL = {https://www.mdpi.com/2076-3417/13/9/5765},
+ISSN = {2076-3417},
+DOI = {10.3390/app13095765}
+}
+<pre>
