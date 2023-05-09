@@ -26,7 +26,7 @@ li_zhenping@126.com
 cite：
 
 
-‘’‘
+‘
 @Article{app13095765,
 AUTHOR = {Li, Zhenping and Cao, Zhen and Li, Pengfei and Zhong, Yong and Li, Shaobo},
 TITLE = {Multi-Hop Question Generation with Knowledge Graph-Enhanced Language Model},
@@ -40,8 +40,7 @@ ISSN = {2076-3417},
 ABSTRACT = {The task of multi-hop question generation (QG) seeks to generate questions that require a complex reasoning process that spans multiple sentences and answers. Beyond the conventional challenges of what to ask and how to ask, multi-hop QG necessitates sophisticated reasoning from dispersed evidence across multiple sentences. To address these challenges, a knowledge graph-enhanced language model (KGEL) has been developed to imitate human reasoning for multi-hop questions.The initial step in KGEL involves encoding the input sentence with a pre-trained GPT-2 language model to obtain a comprehensive semantic context representation. Next, a knowledge graph is constructed using the entities identified within the context. The critical information in the graph that is related to the answer is then utilized to update the context representations through an answer-aware graph attention network (GAT). Finally, the multi-head attention generation module (MHAG) is performed over the updated latent representations of the context to generate coherent questions. Human evaluations demonstrate that KGEL generates more logical and fluent multi-hop questions compared to GPT-2. Furthermore, KGEL outperforms five prominent baselines in automatic evaluations, with a BLEU-4 score that is 27% higher than that of GPT-2.},
 DOI = {10.3390/app13095765}
 }
-
-’‘’
+’
 
 
 
