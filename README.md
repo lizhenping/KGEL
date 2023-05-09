@@ -41,17 +41,21 @@ ISSN = {2076-3417},
 DOI = {10.3390/app13095765}
 }
 <pre>
+
+
 ## Abstract
 
 The task of multi-hop question generation (QG) seeks to generate questions that require a complex reasoning process that spans multiple sentences and answers. Beyond the conventional challenges of what to ask and how to ask, multi-hop QG necessitates sophisticated reasoning from dispersed evidence across multiple sentences. To address these challenges, a knowledge graph-enhanced language model (KGEL) has been developed to imitate human reasoning for multi-hop questions.The initial step in KGEL involves encoding the input sentence with a pre-trained GPT-2 language model to obtain a comprehensive semantic context representation. Next, a knowledge graph is constructed using the entities identified within the context. The critical information in the graph that is related to the answer is then utilized to update the context representations through an answer-aware graph attention network (GAT). Finally, the multi-head attention generation module (MHAG) is performed over the updated latent representations of the context to generate coherent questions. Human evaluations demonstrate that KGEL generates more logical and fluent multi-hop questions compared to GPT-2. Furthermore, KGEL outperforms five prominent baselines in automatic evaluations, with a BLEU-4 score that is 27% higher than that of GPT-2.
 
 ## MulQG Framework:
 <p align="center">
-<img src="plot.png" width="90%" />
+<img src="framework.png" width="90%" />
 </p>
 
 Framework of KGEL. It consists of three major modules: a context understanding module, a reasoning module, and a generation module.
 
 <p align="center">
-<img src="plot.png" width="40%" />
+<img src="reason_chain.png" width="90%" />
+
+The illustration of the reasoning module. We implement a dynamic procedure of Context2Graph and Graph2Context using a mapping matrix M. The entity representation is updated using an answer-aware GAT, and the answer representation is updated through a bi-attention mechanism.
 </p>
